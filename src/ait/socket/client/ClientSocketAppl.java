@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.net.Socket;
 
 public class ClientSocketAppl {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         if (args.length == 1) {
             args = new String[]{args[0], "9000"};
         }
